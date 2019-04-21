@@ -1,0 +1,139 @@
+body {
+    background: url("../images/interlaced.png") repeat;
+    margin: auto;
+}
+
+.mainheader {
+    border-bottom: 5px solid #111934;
+}
+header {
+    position: fixed;
+    left: 0;
+    top: 0;
+    min-width: 100%;
+    max-width: 100%;
+    height: 75px;
+    background-color: white;
+}
+
+.headerwrap {
+    max-width: 960px;
+    margin: 10px auto;
+}
+
+.namewrap {
+    background-color: #4aaaa5;
+    display: inline-block;
+    padding: 0 10px 0 10px;
+    position: absolute;
+    top: 0;
+    height: 100%;
+    font-size: 30px;
+}
+
+.toplinks {
+    float: right;
+    padding-top: 20px;
+    padding-left: 10px;
+    font-size: 18px;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.active {
+    font-weight: 600
+}
+
+h1 {
+    padding-top: 20px;
+    color: white;
+    font-family: 'Lora', serif;
+}
+
+.container {
+    background-color: white;
+    margin-top: 150px;
+    margin-bottom: 150px;
+    max-width: 960px;
+    margin-left: auto; 
+    margin-right: auto; 
+    border: 1px solid rgba(172, 166, 166, 0.507);
+    padding-bottom: 20px;
+}
+
+.title {
+    padding-top: 20px;
+    padding-bottom: 20px;
+    border-bottom: 2px solid rgba(172, 166, 166, 0.507);
+    max-width: 800px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 20px;
+
+}
+
+h2 {
+    font-family: 'Lora', serif;
+    font-size: 24px;
+    font-weight: bold;
+    color: #111934;
+}
+
+.contentwrap {
+    max-width: 800px;
+    margin: auto;
+}
+
+#profilepic {
+    float: left;
+    width: 30%;
+    height: 204.875px;
+    width: 227.5px;
+    margin: 0 10px 0px 0;
+
+     
+      
+}
+
+.pwrap {
+    /* float: right;
+    width: 70%; */
+    /* overflow: auto; */
+    /* display: inline; */
+}
+p {
+    font-family: 'Open Sans', sans-serif;
+    line-height: 1.6;
+     
+}
+
+#p1 {
+   
+}
+
+body {
+    
+}
+
+.footer {
+  
+}
+
+.footer-wrap {
+   
+}
+
+#block1 {
+    background-color: #4aaaa5;
+    height: 10px;
+}
+
+#block2 {
+    background-color: #111934;
+    height: 50px;
+}
+
+.clearfix::after {
+    content: "";
+    clear: both;
+    display: table;
+}
