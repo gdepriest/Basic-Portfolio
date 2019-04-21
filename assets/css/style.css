@@ -4,7 +4,7 @@ body {
 }
 
 .mainheader {
-    border-bottom: 5px solid #111934;
+    border-bottom: 5px solid hsl(226, 57%, 16%);
 }
 header {
     position: fixed;
@@ -94,28 +94,87 @@ h2 {
       
 }
 
-.pwrap {
-    /* float: right;
-    width: 70%; */
-    /* overflow: auto; */
-    /* display: inline; */
-}
 p {
     font-family: 'Open Sans', sans-serif;
-    line-height: 1.6;
-     
+    line-height: 1.6;    
 }
 
-#p1 {
-   
+.gridcontainer {
+    margin-right: auto;
+    margin-left: auto;
 }
 
-body {
-    
+.gridcontent {
+    height: 200px;
+    background-size: cover;
+    border-radius: 25px;
+    margin: 10px;
+    width: 30%;
+    float: left;
 }
 
-.footer {
-  
+.gridcontent:link {
+    text-decoration: none;
+}
+
+.gridcontent:hover {
+    transform: scale(1.06);
+}
+
+#content1 {
+    background-image: url("../images/desert_unsplash.jpg");
+}
+
+#content2 {
+    background-image: url("../images/tv_unsplash.jpg");
+}
+#content3 {
+    background-image: url("../images/tile_unsplash.jpg");
+}
+
+#content4 {
+    background-image: url("../images/grlpwr_unsplash.jpg")
+}
+
+#content5 {
+    background-image: url("../images/green_unsplash.jpg")
+}
+
+#content6 {
+    background-image: url("../images/lipstick_unsplash.jpg")
+}
+
+#content7 {
+    background-image: url("../images/dontbe_unsplash.jpg");
+}
+
+
+
+#content8 {
+    background-image: url("../images/smoke_unsplash.jpg");
+}
+.h3wrap {
+    background-color: #4aaaa5;
+    width: 100%;
+    position: relative;
+    top: 135px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+
+h3 {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 16px;
+    color: white;
+    padding: 0 5px 0 5px;
+    text-align: center;
+}
+
+footer {
+    /* position: fixed; */
+    /* left: 0;
+    bottom: 0;
+    width: 100%; */
 }
 
 .footer-wrap {
@@ -124,12 +183,12 @@ body {
 
 #block1 {
     background-color: #4aaaa5;
-    height: 10px;
+    height: 8px;
 }
 
 #block2 {
     background-color: #111934;
-    height: 50px;
+    height: 40px;
 }
 
 .clearfix::after {
